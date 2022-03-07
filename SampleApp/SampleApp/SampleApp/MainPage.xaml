@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="SampleApp.MainPage"
+             xmlns:xct="http://xamarin.com/schemas/2020/toolkit">
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="auto"></RowDefinition>
+            <RowDefinition Height="auto"></RowDefinition>
+        </Grid.RowDefinitions>
+        <Grid Grid.Row="0">
+            <xct:DrawingView ClearOnFinish="False" MultiLineMode="True"></xct:DrawingView>
+        </Grid>
+        <Grid Grid.Row="1">
+            <Button Text="click" x:Name="btn" Clicked="btn_Clicked"></Button>
+        </Grid>
+        <Grid Grid.Row="2">
+            <Button Text="Say Hi Position" x:Name="viewBtn"></Button>
+        </Grid>
+    </Grid>
+</ContentPage>
