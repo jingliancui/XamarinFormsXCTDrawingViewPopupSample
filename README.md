@@ -3,7 +3,7 @@ Sample for showing XamarinCommunityToolkit DrawingView and Popup on xamarin.form
 
 Tutorial:
 
-
+https://mp.weixin.qq.com/s/bo56Uw-Gn6oQIMr5_aPm9w
 
 QQ Group:
 
